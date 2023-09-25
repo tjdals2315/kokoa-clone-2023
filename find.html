@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>On Service</span>
+        <i class="fa-solid fa-wifi" style="color: #000000"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:47</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full" style="color: #000000" fa-xl></i>
+        <i class="fa-solid fa-bolt" style="color: #000000"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span>
+          <a href="settings.html">
+            <i class="fa-solid fa-gear fa-lg"></i>
+          </a>
+        </span>
+        <div class="screen-header__icons--dot"></div>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-qrcode fa-2xl"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-address-book fa-2xl"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-fingerprint fa-2xl"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-envelope fa-2xl"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <span>You have no recommended friends.</span>
+      </div>
+
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4 class="open-chat_-title">Open Chat</h4>
+          <span
+            >Go to Openchat home
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
+          </span>
+        </div>
+
+        <div class="open-post">
+          <div class="open-post__cloumn">
+            <h5 class="open-post__title">#Sanrio</h5>
+            <h6 class="open-post__hashtags">#hello kitty #Kuromi #my melody</h6>
+            <div class="oepn-post__members">
+              <img src="img/hellokitty.png" />
+              <span class="open-post__member-count">873 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+
+          <div class="open-post__cloumn">
+            <div class="open-post__photo">
+              <img src="img/sanrio.png" />
+              <div class="open-post__heart-count">
+                <i class="fa-solid fa-heart fa-xs"></i>
+                <span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fa-regular fa-user fa-2xl"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">6</span>
+            <i class="fa-regular fa-comment fa-2xl"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass-plus fa-2xl"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__dot"></div>
+            <i class="fas fa-ellipsis-h fa-2xl"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>
+        <i class="fa-solid fa-triangle-exclamation fa-2xl"></i>
+        Your screen is too big
+      </span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/e33e4409ee.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
