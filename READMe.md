@@ -1,3 +1,3 @@
 # Kokoa Clone 2023 Update
 
-HTML & CSS are so much fun!
+Learning HTML and CSS through the Nomad Coder lecture.
